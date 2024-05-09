@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<EditText
+    android:inputType="number|numberDecimal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Digite o valor:"
+    android:textSize="30sp"
+    android:layout_margin="20dp"
+    android:id="@+id/editValor"/>
+
+    <EditText
+        android:inputType="number|numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a taxa:"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:id="@+id/editTaxa"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clicar"
+        android:layout_margin="20dp"
+        android:id="@+id/buttonClicar"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="20dp"
+       android:id="@+id/textResultado"
+       android:text="R$"
+       android:textSize="50dp"
+       android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#8C6ACC"
+        android:textAlignment="center"
+        android:text="Esther Melissa, 7 - Turma 1202"
+        android:textSize="30dp"/>
+
+
+
+</LinearLayout>
